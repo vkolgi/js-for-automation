@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="js/semanticui/semantic.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+						<h1>JavaScript for Automation</h1>
+				</section>
+
+				<section>
+						<h1> Table of contents </h1>
+						<ul>
+							<li> Orientation, Tools, Setting Up Environment </li>
+							<li> Brief History of JS </li>
+							<li> JavaScript Language: Datatypes, Objects, Patterns </li>
+							<li> Node: packages, modules, exports etc. </li>
+							<li> Testing with mocha, chai </li>
+							<li> Additional tools: Transpilers, Grunt, Browserify </li>
+						</ul>
+				</section>
+				<section><h2>Orientation </h2></section>
+					<section>
+						<section> <h2> About Me </h2> </section>
+						<section>
+							<div class="ui two column grid container">
+								<div class="column">
+									<div class="ui card">
+									  <div class="image">
+									    <img src="imgs/me.jpg">
+									  </div>
+									  <div class="content">
+									    <a class="header">Vinayak</a>
+									    <div class="meta">
+									      <span class="date">github @vkolgi</span>
+									    </div>
+									    <div class="description">
+									      Python, JS
+									    </div>
+									  </div>
+									</div>
+								</div>
+								<div class="column">
+									<p class="fragment fade-in">Samagama Resource..</p>
+									<p class="fragment fade-in">Video Editor !!</p>
+								</div>
+							</div>
+						</section>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="js/semanticui/semantic.js"></script>
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

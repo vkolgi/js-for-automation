@@ -31,44 +31,80 @@
 
 				<section>
 						<h1> Table of contents </h1>
-						<ul>
-							<li> Orientation, Tools, Setting Up Environment </li>
-							<li> Brief History of JS </li>
-							<li> JavaScript Language: Datatypes, Objects, Patterns </li>
-							<li> Node: packages, modules, exports etc. </li>
-							<li> Testing with mocha, chai </li>
-							<li> Additional tools: Transpilers, Grunt, Browserify </li>
-						</ul>
+						<ol>
+							<li class="fragment fade-in"> Orientation, Tools, Setting Up Environment </li>
+							<li class="fragment fade-in"> Brief History of JS </li>
+							<li class="fragment fade-in"> JavaScript Language: Datatypes, Objects, Patterns </li>
+							<li class="fragment fade-in"> Node: packages, modules, exports etc. </li>
+							<li class="fragment fade-in"> Testing with mocha, chai </li>
+							<li class="fragment fade-in"> Additional tools: Transpilers, Grunt, Browserify </li>
+						</ol>
 				</section>
-				<section><h2>Orientation </h2></section>
+
+				<section>
+					<h2>Orientation </h2>
+				</section>
+
+				<section>
+
+					<!-- About Me -->
+					<section data-background-transition="zoom" data-background="imgs/AboutMe.gif"> <h1> About Me </h1> </section>
+
+					<!-- Me Explained -->
 					<section>
-						<section> <h2> About Me </h2> </section>
-						<section>
-							<div class="ui two column grid container">
-								<div class="column">
-									<div class="ui card">
-									  <div class="image">
-									    <img src="imgs/me.jpg">
-									  </div>
-									  <div class="content">
-									    <a class="header">Vinayak</a>
-									    <div class="meta">
-									      <span class="date">github @vkolgi</span>
-									    </div>
-									    <div class="description">
-									      Python, JS
-									    </div>
-									  </div>
-									</div>
-								</div>
-								<div class="column">
-									<p class="fragment fade-in">Samagama Resource..</p>
-									<p class="fragment fade-in">Video Editor !!</p>
+						<div class="ui two column grid container">
+							<div class="column">
+								<div class="ui card">
+								  <div class="image">
+								    <img src="imgs/me.jpg">
+								  </div>
+								  <div class="content">
+								    <a class="header">Vinayak</a>
+								    <div class="meta">
+								      <span class="date">github @vkolgi</span>
+								    </div>
+								    <div class="description">
+								      Python, JS
+								    </div>
+								  </div>
 								</div>
 							</div>
-						</section>
+							<div class="column">
+								<p class="fragment fade-in">I wear different other hats</p>
+								<ul>
+									<li class="fragment fade-in"> Samagama Resource..</li>
+									<li class="fragment fade-in"> Video Editor !!</li>
+									<br>
+									<li class="fragment fade-in"> I maintain tuneup_js project </li>
+								</ul>
+							</div>
+						</div>
 					</section>
 				</section>
+
+				<!-- Bit of Web Explained -->
+				<section>
+					<h2> A bit of Web </h2>
+					<ol>
+						<li class="fragment fade-in"> HTML </li>
+						<li class="fragment fade-in"> CSS </li>
+						<li class="fragment fade-in"> JavaScript </li>
+					</ol>
+				</section>
+
+				<!-- Tools to use -->
+				<section data-background="imgs/Editor.gif">
+					<h2>Which editor to use?</h2>
+				</section>
+				<section>
+					<ol>
+						<li class="fragment fade-in"> Sublime </li>
+						<li class="fragment fade-in"> Atom </li>
+						<li class="fragment fade-in"> Visual Studio Code </li>
+						<li class="fragment fade-in"> Vim (??!!!) </li>
+					</ol>
+				</section>
+				
 			</div>
 		</div>
 
@@ -79,7 +115,7 @@
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
-
+				transition: 'convex',
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
